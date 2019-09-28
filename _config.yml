@@ -1,6 +1,6 @@
 title: Rizal Alfiannor - Web Developer
 logo:  'logo3.png'
-description: Web developer focused on Backend Engineer.
+description: Web developer focused on Backend Developer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rizal.web.id" # the base hostname & protocol for your site, e.g. http://example.com
 paginate: 5
@@ -13,7 +13,7 @@ author:
   image: '/assets/img/author.jpg'
   job: Web Developer
   bio: |
-    I'm Web Developer focused on Backend Engineer.
+    I'm Web Developer focused on Backend Developer.
     Currently work at 8villages Indonesia
 
   email: ralfiannor@gmail.com
