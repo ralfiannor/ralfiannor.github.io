@@ -3,7 +3,7 @@ layout: post
 title:  "Javascript Workshop: Build RestFul API with NodeJS"
 date:   2019-02-28 08:00:00 +0700
 image:  'https://ucarecdn.com/f2c766c4-dfeb-4670-8a58-dd1181d013fd/ScreenShot20190922at114229.png'
-tags:   [workshop, nodejs, restful, api]
+tags:   [workshop, nodejs, restful, api, events]
 ---
 Komunitas PHP ID adalah komunitas programming pertama yang saya ikuti sejak masih berstatus pelajar di salah satu sekolah kejuruan di Satui, Kalimantan Selatan. Walaupun saya tinggal jauh dari kota komunitas ini saya ikuti secara online melalui berbagai media sosial baik facebook, whatsapp, maupun telegram.
 	
