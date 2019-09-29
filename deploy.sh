@@ -124,7 +124,8 @@ main() {
 		# deploy_branch exists in $repo; make sure we have the latest version
 		
 		disable_expanded_output
-		git fetch --force $repo $deploy_branch:$deploy_branch --update-head-ok
+		# git fetch --force $repo $deploy_branch:$deploy_branch --update-head-ok
+		git fetch --force $repo $deploy_branch:$deploy_branch
 		enable_expanded_output
 	fi
 
@@ -169,11 +170,7 @@ commit+push() {
 
 	disable_expanded_output
 	#--quiet is important here to avoid outputting the repo URL, which may contain a secret token
-<<<<<<< HEAD
 	# git pull origin master
-=======
-	git pull origin master
->>>>>>> ee31c78e677893b4dfe10e9a80480bb16c5a0da7
 	git push --quiet $repo $deploy_branch
 	enable_expanded_output
 }
