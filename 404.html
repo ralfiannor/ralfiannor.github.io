@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -183,106 +184,18 @@
 
     <div class="page__content" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
     <div class="container">
+=======
+---
+layout: page
+title: Page not found
+image:
+permalink: /404.html
+---
+<div class="container">
+>>>>>>> 6f858e462d45ac2f92b9ca0059efabed02295047
   <div style="text-align: center">
     <h2>404</h2>
     <p>The page you are looking for doesn't exist or has been moved.</p>
-    <p><a href="/">Back to the Home</a></p>
+    <p><a href="{{site.baseurl}}/">Back to the Home</a></p>
   </div>
 </div>
-
-    </div>
-
-  </article>
-  <!-- end page -->
-</div>
-
-  </main>
-  <!-- end content -->
-
-  <div class="container">
-  <!-- begin footer -->
-  <footer class="footer">
-    <div class="footer__inner">
-      <div class="contact">
-        <div class="contact__title">Work inquiry, question or something else? <a href="mailto:ralfiannor@gmail.com">Email me</a>.</div>
-        <!-- <ul class="contact__list list-reset">
-          
-          <li class="contact__item">
-            <a class="contact__link" href="https://twitter.com/ralfiannor">Twitter</a>
-          </li>
-          
-          <li class="contact__item">
-            <a class="contact__link" href="https://facebook.com/ralfiannor">Facebook</a>
-          </li>
-          
-          <li class="contact__item">
-            <a class="contact__link" href="https://instagram.com/ralfiannor">Instagram</a>
-          </li>
-          
-          <li class="contact__item">
-            <a class="contact__link" href="https://www.linkedin.com/in/ralfiannor">Linkedin</a>
-          </li>
-          
-          <li class="contact__item">
-            <a class="contact__link" href="https://github.com/ralfiannor">Github</a>
-          </li>
-          
-        </ul> -->
-      <p>
-        © 2019 Rizal Alfiannor. Under the terms of the <a href="https://github.com/jekyll/jekyll/blob/master/LICENSE" target="_blank">MIT License</a>
-      <p>
-
-      </div>
-
-    </div>
-  </footer>
-  <!-- end footer -->
-</div>
-
-  <!-- begin js -->
-  <script src="/assets/js/vendors/jquery-3.3.1.min.js"></script>
-  <script src="/assets/js/vendors/aos.js"></script>
-  <script src="/assets/js/vendors/jquery.fitvids.js"></script>
-  <script src="/assets/js/common.js"></script>
-  <script>
-    $("#loadmore").click(loadMorePosts);
-    
-    function loadMorePosts() {
-      var _this = this;
-      var $container = $("#container");
-      var nextPage = parseInt($container.attr("data-page")) + 1;
-      var totalPages = parseInt($container.attr("data-totalPages"));
-    
-      $(this).addClass("loading");
-    
-      $.get("/page" + nextPage, function (data) {
-        var htmlData = $.parseHTML(data);
-        var $articles = $(htmlData).find(".article");
-    
-        $container.attr("data-page", nextPage).append($articles);
-    
-        if ($container.attr("data-totalPages") == nextPage) {
-          $("#loadmore").remove();
-        }
-    
-        $(_this).removeClass("loading");
-      });
-    }
-
-    mybutton = document.getElementById("topBtn");
-
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function() {scrollFunction()};
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        mybutton.style.display = "block";
-      } else {
-        mybutton.style.display = "none";
-      }
-    }
-  </script>
-  <!-- end js -->
-</body>
-
-</html>
