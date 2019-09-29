@@ -125,6 +125,7 @@ main() {
 		
 		disable_expanded_output
 		git fetch --force $repo $deploy_branch:$deploy_branch --update-head-ok
+		# git fetch --force $repo $deploy_branch:$deploy_branch
 		enable_expanded_output
 	fi
 
