@@ -1,11 +1,11 @@
-title: Rizal Alfiannor - Web Developer
+title: aRizal Alfiannor - Web Developer
 logo:  'logo3.png'
 description: Web developer focused on Backend Developer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://rizal.web.id" # the base hostname & protocol for your site, e.g. http://example.com
 paginate: 5
 paginate_path: "/page:num/"
-destination: "../ralfiannor.github.io"
+# destination: "../ralfiannor.github.io"
 
 # Author Settings
 author:

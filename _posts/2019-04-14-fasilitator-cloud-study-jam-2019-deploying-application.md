@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  'Fasilitator GDG Cloud Study Jam 2019: Deployment Applications'
+title:  'Fasilitator GDG Cloud Study Jam 2019: Deploying Applications'
 date:   2019-04-14 00:00:00 +0700
 image:  'https://ucarecdn.com/67d044e2-fc1f-4b4c-8ca5-edb2da8f609d/FB_IMG_1555259424877.jpg'
 tags:   [study jam, fasilitator, gdg indonesia, app engine, google cloud platform, events]
