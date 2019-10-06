@@ -2,6 +2,9 @@
 
 My personal web
 
+### Build & Run
+> bundle exec jekyll build
+> bundle exec jekyll run
 
 * * *
 ### License
